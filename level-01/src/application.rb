@@ -27,7 +27,7 @@ class Application
 
   def change_department(student_name, student_department)
     str="a"
-    department1= self.departments.detect {|dept| dept.get_dep(student_name)!=nil}
+    department1= self.departments.detect {|dept| dept.get_department_name(student_name)!=nil}
     if department1==nil
       return "abc"
     end
@@ -52,7 +52,7 @@ class Application
 
   def change_section(student_name, section)
     str="a"
-    department= self.departments.detect {|dept| dept.get_dep(student_name)!=nil}
+    department= self.departments.detect {|dept| dept.get_department_name(student_name)!=nil}
     if department==nil
       return "abc"
     end
@@ -87,7 +87,7 @@ class Application
   end
 
   def student_details(student_name)
-    department= self.departments.detect {|dept| dept.get_dep(student_name)!=nil}
+    department= self.departments.detect {|dept| dept.get_department_name(student_name)!=nil}
     if department==nil
       return "abc"
     end
