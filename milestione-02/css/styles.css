@@ -1,0 +1,124 @@
+body
+{
+	background-image: url("../images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: auto;
+}
+h2
+{
+  margin-top: 100px;
+	font-size: 60px;
+  font-family:Geneva;
+  font-style: bold;
+  color: orangered;
+}
+h3
+{
+  margin-top: 100px;
+	font-size: 30px;
+  font-family:Geneva;
+  font-style: bold;
+  color: orangered;
+}
+label
+{
+  margin-bottom: 15px;
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+input
+{
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  text-decoration-style: italic;
+}
+
+.MyForm
+{
+  align-items: center;
+  margin-left: 80px;
+}
+.MyText
+{
+  width: 50%;
+  height: 30px;
+  border-radius: 15px;
+}
+.CustumMenu
+{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.UC
+{
+	background-image: url("../images/UnderConstruction.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: auto;
+}
+.MyDiv2
+{
+  align-items: center;
+}
+.CustumButton
+{
+  background-color: rgb(27, 223, 40);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 16px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.CustumButton:hover
+{
+  background: orange;
+  cursor: pointer;
+}
+.CustumButton2
+{
+  background-color:  rgb(27, 223, 40);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 16px;
+  border-radius: 15px;
+
+}
+a:link, a:visited {
+  background-color: rgb(27, 223, 40);
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin-right: 10px;
+
+
+}
+
+a:hover, a:active {
+  background-color: orange;
+} 
+.CustumButton2:hover
+{
+  background: orange;
+  cursor: pointer;
+}
